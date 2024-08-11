@@ -78,7 +78,7 @@ def main(number):
                     # write_text(cr, i + gap_x, j - h / 2 + gap_y, h / 4)
                     dp = mark_area(dp, i, j, w, h)
 
-    #draw_border(cr, 5, .514, .431, .976, width, height)
+    draw_border(cr, 3, 0, 0, 0, width, height)
     ims.write_to_png(f'examples/{number}.png')
 
 
